@@ -1,0 +1,42 @@
+/* src/styles/Toast.css */
+.toast-container {
+  position: fixed;
+  z-index: 1000;
+}
+
+.toast-container.top-right {
+  top: 20px;
+  right: 20px;
+}
+
+.toast {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.toast.success { border-left: 5px solid #28a745; }
+.toast.info { border-left: 5px solid #17a2b8; }
+.toast.warning { border-left: 5px solid #ffc107; }
+.toast.danger { border-left: 5px solid #dc3545; }
+
+.toast .progress {
+  height: 3px;
+  background-color: currentColor;
+  animation: progress 3s linear forwards;
+}
+
+@keyframes progress {
+  from { width: 100%; }
+  to { width: 0; }
+}
+
+.close {
+  margin-left: auto;
+  cursor: pointer;
+}

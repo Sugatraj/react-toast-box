@@ -1,0 +1,17 @@
+{
+  "name": "react-toast-box",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "toast", "notification", "library"],
+  "author": "Sugatraj Sarwade <sugatraj.sarwade@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "description": "A React library for displaying toast notifications."
+}
